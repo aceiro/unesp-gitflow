@@ -35,8 +35,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Running
         run: node index.js
-    test:
-      steps:
-        - name: Unit Testing
-          run: echo Unit Testing
 
